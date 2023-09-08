@@ -12,7 +12,10 @@ h5,
 h6 {
     font-weight: bold;
 }
-
+nav.navbar .container-fluid .navbar-brand img{
+    min-width: 50px; 
+    max-width: 55px;
+}
 
 .card {
     margin-top: 3%;
