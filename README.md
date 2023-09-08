@@ -19,6 +19,7 @@ Desenvolva a primeira parte dos exercícios em javaScript com formulários. Cole
 Para homens: (72.7*h) - 58
 Para mulheres: (62.1*h) - 44.7 
 (h = altura)
+
 7-) Crie uma página que receba N valores do usuário. Crie botões para mostrar todos os valores inseridos, o maior valor e o menor valor do vetor.
 
 8-) Crie um menu com bootstrap e css para abrir todos os exercícios, hospede no github e cole o link nesse exercício
