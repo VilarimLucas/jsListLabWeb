@@ -17,7 +17,8 @@
     <!-- HEADER -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../../index.html"><img src="../../img/js.png" class="img-fluid" width="5%" alt="..."></a>
+            <a class="navbar-brand" href="../../index.html"><img src="../../img/js.png" class="img-fluid" width="5%"
+                    alt="..."></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,7 +26,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="../exercicio1/index.html" aria-current="page"> <i class="bi bi-1-circle"></i></a>
+                        <a class="nav-link" href="../exercicio1/index.html" aria-current="page"> <i
+                                class="bi bi-1-circle"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active"> <i class="bi bi-2-circle"></i></a>
@@ -67,12 +69,31 @@
                         <div class="col">
 
                             <div class="card border-success mb-3">
-                                <div class="card-header">Somatória de números</div>
+                                <div class="card-header">Conversor de Temperatura</div>
                                 <div class="card-body text-success">
-                                  <h5 class="card-title">EXERCÍCIO <i class="bi bi-2-square-fill"></i></h5>
-                                  <p class="card-text">Desenvolver um programa (Web) para exibir todos os números pares de um intervalo de 1 até o valor informado pelo usuário. Mostre a soma total desses valores.</p>
+                                    <h5 class="card-title">EXERCÍCIO <i class="bi bi-2-square-fill"></i></h5>
+                                    <p class="card-text">Desenvolva uma página que leia uma temperatura e converta a ela
+                                        para os graus Fahrenheit ou Celsius. <small>
+                                            <hr>°F = °C × 1, 8 + 32 <br>°C = (°F − 32) ÷ 1, 8
+                                            <hr>
+                                        </small></p>
+
+
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="temp" placeholder="Valor de temperatura"
+                                            aria-label="Dollar amount (with dot and two decimal places)">
+                                        <select class="form-select" id="grau"
+                                            aria-label="Example select with button addon">
+                                            <option value="celcius">º Celsius</option>
+                                            <option value="farenheit">º Farenheit</option>
+                                        </select>
+                                        <button class="btn btn-outline-secondary" id="btn" type="button">Converter</button>
+                                    </div>
+                                    <script src="script.js"></script>
+                                    <div id="resultado"></div>
+
                                 </div>
-                              </div>
+                            </div>
 
                         </div>
                     </div>
@@ -89,8 +110,9 @@
     <!-- FOOTER -->
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item active"><a class="nav-link px-2 text-muted"><i class="bi bi-1-circle"></i></a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="bi bi-2-circle"></i></a></li>
+            <li class="nav-item"><a href="../exercicio1/index.html" class="nav-link px-2 text-muted"><i
+                        class="bi bi-1-circle"></i></a></li>
+            <li class="nav-item active"><a class="nav-link px-2 text-muted"><i class="bi bi-2-circle"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="bi bi-3-circle"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="bi bi-4-circle"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="bi bi-5-circle"></i></a></li>
